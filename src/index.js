@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import "./indexs.css";
 // import App from "./App";
@@ -57,7 +58,7 @@ function TextExpander() {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <>
+  <StrictMode>
     {/* <TextExpander /> */}
     {/* <App /> */}
     <App />
@@ -70,7 +71,7 @@ root.render(
 
     <Star /> */}
     {/* <StarRating rating={10} /> */}
-  </>
+  </StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
