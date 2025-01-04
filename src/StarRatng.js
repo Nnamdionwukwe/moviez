@@ -5,18 +5,18 @@ const star = {
 };
 
 export default function StarRating({
-  rating = 5,
+  rating = 10,
   color = "yellow",
   size = "18",
   message = [],
-  setOutRating,
+  onSetRating,
 }) {
   const [starRate, setStarRate] = useState(0);
   const [tempRating, setTempRatng] = useState(0);
 
   function handleAddNum(rate) {
     setStarRate(rate);
-    setOutRating(rate);
+    onSetRating(rate);
   }
 
   function handleMouse(num) {
