@@ -3,7 +3,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import "./indexs.css";
 // import App from "./App";
-import App from "./App-v1";
+import App from "./App";
 // import AppsV2 from "./AppsV2";
 import reportWebVitals from "./reportWebVitals";
 // import StarRating from "./StarRatng";
