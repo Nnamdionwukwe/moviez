@@ -6,17 +6,9 @@ export default function App() {
 
   return (
     <div>
-      <Header />
-      {/* <p>HELLO</p>
-      <div>
-        <img alt={ham} src={ham} />
-      </div>
-      <div>
-        <img alt={IMG} src={IMG} />
-      </div>
-      <div>
-        <img alt="img" src={img} />
-      </div> */}
+      {/* <Header /> */}
+
+      <h1>Hello</h1>
     </div>
   );
 }

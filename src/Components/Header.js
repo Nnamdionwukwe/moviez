@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./header.module.css";
 
 const img =
@@ -7,6 +8,8 @@ const ham =
   "https://gimgs2.nohat.cc/thumb/f/640/menu-hamburger-icon-svg-white--m2H7G6A0A0Z5N4i8.jpg";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div>
       <div className={styles.imgDiv1}>
@@ -14,7 +17,7 @@ export default function Header() {
       </div>
 
       <div className={styles.imgDiv2}>
-        <img src={ham} alt="image" />
+        <p onClick={() => setIsOpen((is) => !is)}>{isOpen ? "+" : "-"}</p>
       </div>
     </div>
   );
