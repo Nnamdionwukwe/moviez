@@ -1,0 +1,25 @@
+@media screen and (min-width: 20px) {
+  .header1 {
+    background-color: rgb(150, 107, 7);
+    padding: 5px 20px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .header2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header2 {
+    background-color: rgb(150, 107, 7);
+    padding: 5px 20px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

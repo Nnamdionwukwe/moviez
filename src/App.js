@@ -1,4 +1,4 @@
-import Header from "./Components/Header";
+import MainHeader from "./component/MainHeader";
 
 export default function App() {
   const IMG =
@@ -8,7 +8,9 @@ export default function App() {
     <div>
       {/* <Header /> */}
 
-      <h1>Hello</h1>
+      {/* <h1>Hello</h1> */}
+
+      <MainHeader />
     </div>
   );
 }
